@@ -1,5 +1,5 @@
 {
-  "name": "opinionated-reusable-components",
+  "name": "react-opinionated-reusable-components",
   "version": "1.0.0",
   "main": "./lib/index.js",
   "author": {
@@ -15,7 +15,8 @@
     "classnames": "^2.2.6",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "styled-components": "1.4.5"
+    "styled-components": "1.4.5",
+    "tabler-react": "^1.19.1"
   },
   "devDependencies": {
     "autoprefixer": "7.1.0",

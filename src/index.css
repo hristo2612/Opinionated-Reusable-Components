@@ -50,12 +50,30 @@ table {
 }
 
 .navigation {
-  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 33px;
+  font-size: 26px; 
   width: 250px;
-  list-style-type: none;
+  float: left;
+  list-style-type: none !important;
   padding: 0;
+}
+
+.navigation-item {
+  margin: 10px;
+}
+
+.navigation-item > a {
+  text-decoration: none !important;  
 }
 
 .componentpage {
   margin-left: 275px;
+  margin-top: 26px;
+}
+
+.show-code-button {
+  margin-top: 26px;
 }

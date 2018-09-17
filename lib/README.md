@@ -1,2 +1,2 @@
-# Opinionated Reusable Components For React
+# Opinionated-Reusable-Components
 Yet another one of those Reusable Component repos...

@@ -6,14 +6,13 @@
   },
   "version": "1.0.0",
   "main": "./index.js",
-  "homepage": "https://hristo2612.github.io/Opinionated-Reusable-Components/",
+  "homepage": "https://hristo2612.github.io/React-Opinionated-Reusable-Components/",
   "dependencies": {
     "@material-ui/core": "^3.0.3",
     "@material-ui/icons": "^3.0.1",
     "classnames": "^2.2.6",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "styled-components": "1.4.5",
-    "tabler-react": "^1.19.1"
+    "styled-components": "1.4.5"
   }
 }

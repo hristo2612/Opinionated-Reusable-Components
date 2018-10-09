@@ -1,0 +1,42 @@
+.CodeMirror-sizer {
+    padding-top: 12px;
+}
+
+.add_line, .remove_line {
+    padding: 1px 0;
+}
+
+.add_line {
+    background-color: #002800;
+}
+
+/* .add_line pre > span span {
+    color: rgba(255, 255, 255, 0.767) !important;
+}
+
+.remove_line pre > span span {
+    color: rgba(255, 255, 255, 0.795) !important;
+} */
+
+.remove_line {
+    background-color: #380000;
+}
+
+.add_line:before, .remove_line:before {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.911);
+    left: 0px;
+    top: 0px;
+    padding: 1px 3px 1px 5px;
+    z-index: 5;
+}
+
+.add_line:before {
+    content: '+';
+    background-color: #002800;
+}
+
+.remove_line:before {
+    content: '-';
+    background-color: #380000;
+}
